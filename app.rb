@@ -2,7 +2,9 @@ require 'rubygems'
 require 'sinatra'
 require 'haml'
 require 'partials.rb'
+require 'yaml'
 helpers Sinatra::Partials
+::Settings = ::OpenStruct.new(YAML.load_file("#{File.dirname(__FILE__)}/config/settings.yml")) unless defined?(::Settings)
 
 get '/' do
  haml :index

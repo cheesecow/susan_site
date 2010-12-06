@@ -3,7 +3,7 @@
   %head
     %link{:rel => "stylesheet", :type => "text/css", :href => "susan.css"}
     %title
-      Susan Ledig Events &mdash; About
+      =::Settings.site_name
   %body
     .main
       .title
@@ -11,7 +11,7 @@
       .content
         %p
           &nbsp; Susan Ledig Events has been creating exquisite events for over 15 years in the Santa Barbara area.
-          %img{:src => "susan_about.jpg", :style => "float:right; margin:0 5px 0 10px;"}
+          %img{:src => "#{::Settings.assets_location}susan_about.jpg", :style => "float:right; margin:0 5px 0 10px;"}
         %p
           &nbsp; We do this by establishing a strong connection with the client, paying close attention to every detail and providing exceptional service.  Ms. Ledig, the proprietor, utilizes her innate creativity and background in the Fine Arts to develop intriguing themes and styles.  She combines this knowledge with extraordinary cuisine to produce a memorable experience for the discerning client and their well-healed guests.
         %p
