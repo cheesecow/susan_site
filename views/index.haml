@@ -10,10 +10,11 @@
       .title
       .clear
       .content
-        %h1{ :style => "color:#fff; text-align:center;"}
-          Susan Ledig Events
-          %br
-          %br
-          Phone: 805.886.6721
+        %div{:style => "width:400px;"}
+          %h1{ :style => "color:#fff; text-align:center; margin-top:10px"}
+            805.886.6721
+            %a.home-title{ :href => "mailto:susanledig@gmail.com"}
+              susanledig@gmail.com
+
       .clear
       =partial(:footer_links)

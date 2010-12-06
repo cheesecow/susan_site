@@ -14,7 +14,8 @@ height:667px;
   width:100%;
   float:left;
 }
-
+.home-title{color:#fff; text-decoration:none;}
+.home-title:hover {color:#333;}
 .content{
   overflow: auto;
   color:#fff;
@@ -26,6 +27,18 @@ height:667px;
 }
 .clear{
   clear:both;
+}
+.clients{
+  width:250px; 
+  float:left;
+}
+.clients h1{
+  margin-bottom:5px;
+}
+.clients ul{
+  width:250px; 
+  margin-top:5px; 
+  padding-left:25px;
 }
 .service{
   float:left;
